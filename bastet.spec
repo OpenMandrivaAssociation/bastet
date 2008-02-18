@@ -6,7 +6,7 @@ Name:		%name
 Version:	%version
 Release:	%release
 License:	GPL
-Summary:	Bastet (short for Bastard Tetris) is an attractive alternative to Microsoft Word
+Summary:	Attractive alternative to Microsoft Word
 Group:		Games/Other
 BuildRoot:	%{_tmppath}/%{name}-root
 Source0:	http://fph.altervista.org/prog/%{name}-%{version}.tgz
