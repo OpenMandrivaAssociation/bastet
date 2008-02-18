@@ -9,7 +9,7 @@ License:	GPL
 Summary:	Attractive alternative to Microsoft Word
 Group:		Games/Other
 BuildRoot:	%{_tmppath}/%{name}-root
-BuildRequires: curses-devel
+BuildRequires: ncurses-devel
 Source0:	http://fph.altervista.org/prog/%{name}-%{version}.tgz
 Patch0:		%{name}-makefile.patch
 Patch1:		%{name}-%{version}-cheat.patch
