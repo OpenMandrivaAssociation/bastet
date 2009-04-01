@@ -1,12 +1,12 @@
 %define name bastet
 %define version 0.41
-%define release %mkrel 4
+%define release %mkrel 5
 
 Name:		%name
 Version:	%version
 Release:	%release
 License:	GPL
-Summary:	Attractive alternative to Microsoft Word
+Summary:	Tetris clone giving you the worst bricks possible
 Group:		Games/Other
 BuildRoot:	%{_tmppath}/%{name}-root
 BuildRequires: ncurses-devel
