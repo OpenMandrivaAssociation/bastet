@@ -1,6 +1,6 @@
 %define name bastet
 %define version 0.43
-%define release %mkrel 2
+%define release %mkrel 3
 
 Name:		%{name}
 Version:	%{version}
