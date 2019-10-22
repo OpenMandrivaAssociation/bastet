@@ -6,6 +6,7 @@ Summary:	Tetris clone giving you the worst bricks possible
 Group:		Games/Other
 Url:		http://fph.altervista.org/prog/bastet.html
 Source0:	http://fph.altervista.org/prog/files/%{name}-%{version}.tar.gz
+Patch0: bastet-tr1.patch
 
 BuildRequires:  ncurses-devel
 BuildRequires:	boost-devel
@@ -20,6 +21,7 @@ Playing Bastet can be a very frustrating experience!
 %setup -q
 
 %build
+%autopatch -p1
 %serverbuild
 %make
 
