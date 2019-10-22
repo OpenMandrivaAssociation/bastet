@@ -1,11 +1,11 @@
 Name:		bastet
-Version:	0.43
-Release:	5
+Version:	0.43.2
+Release:	1
 License:	GPLv3+
 Summary:	Tetris clone giving you the worst bricks possible
 Group:		Games/Other
 Url:		http://fph.altervista.org/prog/bastet.html
-Source0:	http://fph.altervista.org/prog/files/%{name}-%{version}.tgz
+Source0:	http://fph.altervista.org/prog/files/%{name}-%{version}.tar.gz
 
 BuildRequires:  ncurses-devel
 BuildRequires:	boost-devel
