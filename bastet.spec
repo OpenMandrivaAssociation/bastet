@@ -1,11 +1,10 @@
 Name:		bastet
 Version:	0.43.2
-Release:	2
+Release:	3
 License:	GPLv3+
 Summary:	Tetris clone giving you the worst bricks possible
 Group:		Games/Other
 Url:		http://fph.altervista.org/prog/bastet.html
-#Source0:	http://fph.altervista.org/prog/files/%{name}-%{version}.tgz
 Source0:	https://github.com/fph/bastet/archive/%{version}/%{name}-%{version}.tar.gz
 # (fedora)
 Patch0:		bastet-tr1.patch
@@ -94,4 +93,3 @@ install -pm 0644 bastet.appdata.xml %{buildroot}%{_datadir}/appdata/
 # manpage
 install -pm 0755 -d %{buildroot}%{_mandir}/man6
 install -pm 0644 %{name}.6 %{buildroot}%{_mandir}/man6/%{name}.6 
-
