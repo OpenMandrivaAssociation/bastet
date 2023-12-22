@@ -1,6 +1,6 @@
 Name:		bastet
 Version:	0.43.2
-Release:	3
+Release:	4
 License:	GPLv3+
 Summary:	Tetris clone giving you the worst bricks possible
 Group:		Games/Other
