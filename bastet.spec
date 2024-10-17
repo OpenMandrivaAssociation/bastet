@@ -4,7 +4,7 @@ Release:	5
 License:	GPLv3+
 Summary:	Tetris clone giving you the worst bricks possible
 Group:		Games/Other
-Url:		http://fph.altervista.org/prog/bastet.html
+Url:		https://fph.altervista.org/prog/bastet.html
 Source0:	https://github.com/fph/bastet/archive/%{version}/%{name}-%{version}.tar.gz
 # (fedora)
 Patch0:		bastet-tr1.patch
