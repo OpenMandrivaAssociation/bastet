@@ -11,6 +11,7 @@ Patch0:		bastet-tr1.patch
 # (fedora)
 Patch1:		bastet-fmt-str.patch
 
+BuildRequires:	make
 BuildRequires:	imagemagick
 BuildRequires:  ncurses-devel
 BuildRequires:	boost-devel
